@@ -1,4 +1,55 @@
 .container {
-  min-width: 200px;
-  background-color: aqua;
+  min-width: 150px;
+  background-color: white;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+
+.symbol {
+  margin-top: 30px;
+
+  .label {
+    margin: 0 0 10px;
+    text-align: center;
+  }
+}
+
+.terminator {
+  width: 100px;
+  height: 50px;
+  background-color: #f44336;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.decision {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #2196f3;
+  margin: 20px auto 30px;
+  transform: rotate(45deg);
+}
+
+.process {
+  width: 100px;
+  height: 50px;
+  background-color: #e91e63;
+  margin: 0 auto;
+}
+
+.connector {
+  width: 50px;
+  height: 50px;
+  background-color: #009688;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.io {
+  width: 100px;
+  height: 50px;
+  background-color: #ff9800;
+  transform: skew(-20deg);
+  margin: 0 auto;
 }
